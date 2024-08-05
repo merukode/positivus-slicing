@@ -3,7 +3,7 @@ import Company from "./components/Company";
 
 export default function Home() {
   return (
-    <main className="m-14">
+    <main className="w-[1600px] m-auto mt-5">
       {/* Navabar */}
       <section className="flex justify-between items-center">
         <Image
@@ -54,6 +54,8 @@ export default function Home() {
       </section>
       {/* Company Logos */}
       <Company/>
+      {/* Services */}
+
     </main>
   );
 }
