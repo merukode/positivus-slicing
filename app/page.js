@@ -55,7 +55,13 @@ export default function Home() {
       {/* Company Logos */}
       <Company/>
       {/* Services */}
-
+      <section className="mt-28">
+        <div className="flex gap-5 items-center">
+        <h2 className="text-4xl mt-5 bg-[#B9FF66] font-bold mb-5">Services</h2>
+        <p>At our digital marketing agency, we offer a range of services to <br/> help businesses grow and succeed online. These services include:</p>
+        </div>
+        {/* Boxes */}
+      </section>
     </main>
   );
 }
