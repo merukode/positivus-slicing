@@ -41,7 +41,7 @@ function Boxes() {
         </span>
         </section>
         <Image
-          src="/ilus-1.svg"
+          src="/ilus-2.svg"
           alt="Search"
           width={200}
           height={200}
@@ -64,7 +64,7 @@ function Boxes() {
         </span>
         </section>
         <Image
-          src="/ilus-1.svg"
+          src="/ilus-3.svg"
           alt="Search"
           width={200}
           height={200}
@@ -87,7 +87,7 @@ function Boxes() {
         </span>
         </section>
         <Image
-          src="/ilus-1.svg"
+          src="/ilus-4.svg"
           alt="Search"
           width={200}
           height={200}
@@ -110,7 +110,7 @@ function Boxes() {
         </span>
         </section>
         <Image
-          src="/ilus-1.svg"
+          src="/ilus-5.svg"
           alt="Search"
           width={200}
           height={200}
@@ -133,7 +133,7 @@ function Boxes() {
         </span>
         </section>
         <Image
-          src="/ilus-1.svg"
+          src="/ilus-6.svg"
           alt="Search"
           width={200}
           height={200}
