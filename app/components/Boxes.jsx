@@ -95,9 +95,9 @@ function Boxes() {
         />
       </div>
 
-      <div className="w-full p-8 shadow-5xl flex justify-between rounded-3xl border-2">
+      <div className="w-full bg-[#b9ff66] p-8 shadow-5xl flex justify-between rounded-3xl border-2">
         <section>
-        <p className="text-3xl inline bg-[#B9FF66] bg-">Search Engine Optimization</p>
+        <p className="text-3xl inline bg-[#fff] bg-">Content <br/> Creation</p>
         <span className="flex gap-3 mt-16 items-center">
             <Image
               src="/green-arrow.svg"
