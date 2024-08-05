@@ -43,6 +43,7 @@ export default function Home() {
           </button>
         </div>
 
+
         <div className="w-full">
           <Image
             src="/hero.svg"
@@ -63,6 +64,10 @@ export default function Home() {
         </div>
         {/* Boxes */}
         <Boxes/>
+      </section>
+      {/* Divider */}
+      <section>
+
       </section>
     </main>
   );
