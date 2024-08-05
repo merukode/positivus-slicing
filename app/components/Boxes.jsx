@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 function Boxes() {
   return (
-    <main className="grid md:grid-cols-2 gap-4 mt-10">
+    <main className="grid md:grid-cols-2 gap-6 mt-10">
       <div className="w-full shadow-5xl p-8 flex  justify-between rounded-3xl border-2">
         <section>
         <p className="text-3xl inline bg-[#B9FF66] bg-">Search Engine Optimization</p>
