@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Company from "./components/Company";
 
 export default function Home() {
   return (
@@ -52,55 +53,7 @@ export default function Home() {
         </div>
       </section>
       {/* Company Logos */}
-      <section className="flex justify-between items-center mt-10">
-        <Image
-          src="/company-logo.svg"
-          alt="Company Logos"
-          width={200}
-          height={200}
-          priority
-        />
-
-        <Image
-          src="/logo-1.svg"
-          alt="Company Logos"
-          width={200}
-          height={200}
-          priority
-        />
-
-        <Image
-          src="/logo-2.svg"
-          alt="Company Logos"
-          width={200}
-          height={200}
-          priority
-        />
-
-        <Image
-          src="/logo-3.svg"
-          alt="Company Logos"
-          width={200}
-          height={200}
-          priority
-        />
-
-        <Image
-          src="/logo-4.svg"
-          alt="Company Logos"
-          width={200}
-          height={200}
-          priority
-        />
-
-        <Image
-          src="/logo-5.svg"
-          alt="Company Logos"
-          width={200}
-          height={200}
-          priority
-        />
-      </section>
+      <Company/>
     </main>
   );
 }
