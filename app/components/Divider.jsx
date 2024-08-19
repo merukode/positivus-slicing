@@ -10,20 +10,23 @@ function Divider() {
       setIsOpen(!isOpen);
     };
   return (
-    <div className="border rounded-lg p-4 w-full max-w-md mx-auto">
+    <div className="border rounded-lg p-4 mt-14 bg-[#B9FF66] w-full mx-auto">
     <div className="flex justify-between items-center">
-      <h2 className="text-lg font-bold">Title</h2>
+        <div className='flex items-center gap-5'>
+        <h2 className="text-4xl font-bold">01</h2>
+        <h2 className="text-2xl font-bold">Consultation</h2>
+        </div>
       <button 
         onClick={handleToggle} 
-        className="text-xl font-bold focus:outline-none"
+        className="text-xl font-bold focus:outline-none bg-white p-5 rounded-full"
       >
         {isOpen ? '-' : '+'}
       </button>
     </div>
     <hr/>
     <div className={`transition-max-height duration-500 ease-in-out overflow-hidden ${isOpen ? 'max-h-96' : 'max-h-0'}`}>
-      <p className="mt-4">
-        This is the hidden text that will be shown when the button is clicked.
+      <p className="mt-10 text-lg">
+      During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.
       </p>
     </div>
   </div>
