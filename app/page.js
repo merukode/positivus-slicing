@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Company from "./components/Company";
 import Boxes from "./components/Boxes";
-
+import Divider from "./components/Divider";
 export default function Home() {
   return (
     <main className="w-[1600px] m-auto mt-5">
@@ -67,7 +67,7 @@ export default function Home() {
       </section>
       {/* Divider */}
       <section>
-
+     <Divider/>
       </section>
     </main>
   );
