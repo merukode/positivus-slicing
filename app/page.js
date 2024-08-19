@@ -66,7 +66,11 @@ export default function Home() {
         <Boxes/>
       </section>
       {/* Divider */}
-      <section>
+      <section className="mt-28 px-52">
+        <div className="flex gap-5 items-center ">
+        <h2 className="text-4xl w-fit mt-5 bg-[#B9FF66] font-bold mb-5">Our Working Process</h2>
+        <p>Step-by-Step Guide to Acihieveing <br/> Your Business Goals</p>
+        </div>
      <Divider/>
       </section>
     </main>
